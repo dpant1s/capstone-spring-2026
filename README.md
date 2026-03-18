@@ -1,15 +1,15 @@
-# Capstone Project – Sprint 0
+# Capstone Project – Team Monarch
 
 ## Project Overview
-This repository is created for Sprint 0 of the Capstone project. The purpose of Sprint 0 is to set up project tools, become familiar with the project domain, and gather initial requirements. The final project topic is currently under discussion, as an external project sponsor has not yet confirmed participation.
+This repository contains the work for Team Monarch’s Capstone Project. The project is currently in the design and planning phase (Sprints 0–2). The focus of this semester is on gathering requirements, designing the system, and preparing for implementation.
 
 ## Project Status
-Project scope and topic are pending sponsor confirmation. This repository will be updated as the project details are finalized.
+The team is currently in **Sprint 2**, working on design artifacts such as system models, requirements, and planning documents. Initial prototype functionalities will be developed for demonstration in the final presentation.
 
 ## Team Information
 **Team Name:** Team Monarch
 
-**Team Members:**
+### Team Members
 - Jinh Nguyen (Team Lead)
 - Dikshya Pant
 - Aniya Taylor
@@ -17,23 +17,30 @@ Project scope and topic are pending sponsor confirmation. This repository will b
 - Remonda Ayad
 
 ## Course Staff
-**Instructor:** Diana Rabah  
-**Teaching Assistant:** Sai Sri Harsha Chakravarthula
+- **Instructor:** Diana Rabah
+- **Teaching Assistant:** Sai Sri Harsha Chakravarthula
 
-## Sprint 0 Goals
-- Set up GitHub repository
-- Create Trello Kanban board
-- Familiarize with the project domain
-- Gather and document initial project requirements
-- Identify tools and technologies to be used
-- Establish team organization and communication
+## Work Completed (Sprints 0–2)
+- GitHub repository setup
+- Team organization and communication established
+- Trello Kanban board created (managed by team lead)
+- Initial requirements gathering
+- Design discussions and documentation (SRS, diagrams, etc.)
+- Wireframes and system planning in progress
+
+## Current Focus (Sprint 2)
+- Finalizing design documents
+- Refining requirements
+- Preparing initial working functionalities (prototype/demo)
+- Organizing deliverables for submission
 
 ## Tools & Technologies
-- **GitHub** – Version control and repository management
-- **Trello** – Kanban board for task and sprint management
-
-## Task Management
-Project tasks and progress for Sprint 0 are tracked using a Trello Kanban board. Tasks are organized into Backlog/To Do, In Progress, Blocked, and Done columns to support agile project management.
+- GitHub – version control and collaboration
+- Trello – task and sprint management
+- Other tools will be finalized as design progresses
 
 ## Repository Access
-This repository is currently owned by Dikshya Pant for the purpose of individual Sprint 0 setup. Shared access will be granted to all team members once the final project scope and repository structure are confirmed.
+This repository is actively used by Team Monarch for project collaboration.  
+Team members have been added as contributors.  
+
+Access for course staff (TA and instructor) is currently being arranged.
