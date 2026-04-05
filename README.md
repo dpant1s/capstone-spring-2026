@@ -59,3 +59,22 @@ This repository is actively used by Team Monarch for project collaboration.
 Team members have been added as contributors.  
 
 Access for course staff (TA and instructor) has been provided / is being maintained.
+
+## How to Run the Backend (MVP)
+
+1. Clone the repository:
+   git clone https://github.com/dpant1s/capstone-spring-2026.git
+
+2. Navigate to the project folder:
+   cd capstone-spring-2026
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Run the Flask application:
+   python app.py
+
+5. Open in browser:
+   http://127.0.0.1:5000/
+
+Note: This is a basic MVP backend setup. Full mobile integration (Android/iOS) will be implemented in future sprints.
