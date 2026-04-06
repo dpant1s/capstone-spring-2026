@@ -114,3 +114,15 @@ Note: This is a basic MVP backend setup. Full mobile integration (Android/iOS) w
 - Progress & History
 - User views adherence history
 - User views Butterfly Bank (visual rewards)
+
+# Doctor User Flow
+- Login to Dashboard
+- Provider logs into secure dashboard
+- Patient Monitoring
+- Provider views patient adherence data
+- Reviews trends and medication history
+- Alert System
+  - System flags patients with repeated missed doses
+  - Provider receives non-adherence alerts
+- (Future Feature) Communication
+  - Provider may send messages or guidance to patients
