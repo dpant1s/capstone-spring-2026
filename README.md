@@ -78,3 +78,32 @@ Access for course staff (TA and instructor) has been provided / is being maintai
    http://127.0.0.1:5000/
 
 Note: This is a basic MVP backend setup. Full mobile integration (Android/iOS) will be implemented in future sprints.
+
+## User Flow
+# Patient
+- Account Creation / Login
+- User opens the app
+- Creates a new account or logs in with existing credentials
+- Device Pairing (Initial Setup)
+- User pairs the Bluetooth-enabled medication bottle cap with the app
+- Home Dashboard
+# User views:
+- Medication status (taken, late, missed)
+- Butterfly Bucks (BB) balance
+- Current game stage
+- Medication Tracking
+- User takes medication
+- Bottle cap sends a Bluetooth signal to the app
+- App logs timestamp and updates adherence status
+- Reward System
+  - App awards Butterfly Bucks based on adherence:
+    - On-time → +2 BB
+    - Late → +1 BB
+    - Missed → 0 BB
+- Game Progression
+- User earns BB and progresses through stages:
+  - Chrysalis → Caterpillar → Butterfly
+- User unlocks customization and features
+- Progress & History
+- User views adherence history
+- User views Butterfly Bank (visual rewards)
