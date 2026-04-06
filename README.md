@@ -60,6 +60,14 @@ Team members have been added as contributors.
 
 Access for course staff (TA and instructor) has been provided / is being maintained.
 
+## UI Design / Wireframes
+UI mockups and screen designs for the Lupus Butterfly app are located in the `/designs` folder.
+These include:
+- Sign Up & Patient Home Screen
+- Patient & Clinician Account Pages
+- Clinician Home Dashboard
+
+
 ## How to Run the Backend (MVP)
 
 1. Clone the repository:
