@@ -79,15 +79,14 @@ Access for course staff (TA and instructor) has been provided / is being maintai
 
 Note: This is a basic MVP backend setup. Full mobile integration (Android/iOS) will be implemented in future sprints.
 
-## User Flow
-# Patient
+# Patient User Flow
 - Account Creation / Login
 - User opens the app
 - Creates a new account or logs in with existing credentials
 - Device Pairing (Initial Setup)
 - User pairs the Bluetooth-enabled medication bottle cap with the app
 - Home Dashboard
-# User views:
+### A Patient views:
 - Medication status (taken, late, missed)
 - Butterfly Bucks (BB) balance
 - Current game stage
