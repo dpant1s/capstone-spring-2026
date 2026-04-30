@@ -9,7 +9,7 @@ Lupus Butterfly is a medication adherence application designed for Lupus patient
 ---
 
 ## Project Status
-✅ **MVP Prototype Complete** — Sprints 0–3 finalized. Full mobile development continues in Capstone II.
+**MVP Prototype Complete** — Sprints 0–3 finalized. Full mobile development continues in Capstone II.
 
 ---
 
@@ -76,18 +76,18 @@ Open browser at: `http://localhost:8501`
 ## Features (MVP)
 
 ### Patient
-- ✅ Sign up & login
-- ✅ View medication status (taken, late, missed)
-- ✅ Mark medications as taken — live database update
-- ✅ Earn Butterfly Bucks (On-time +2 BB, Late +1 BB, Missed +0 BB)
-- ✅ Progress through game stages: Chrysalis 🥚 → Caterpillar 🐛 → Butterfly 🦋
-- ✅ View full adherence history
+- Sign up & login
+- View medication status (taken, late, missed)
+- Mark medications as taken — live database update
+- Earn Butterfly Bucks (On-time +2 BB, Late +1 BB, Missed +0 BB)
+- Progress through game stages: Chrysalis 🥚 → Caterpillar 🐛 → Butterfly 🦋
+- View full adherence history
 
 ### Clinician
-- ✅ Login to dedicated dashboard
-- ✅ View non-adherence alerts for patients
-- ✅ Search and filter patient list
-- ✅ View individual patient adherence charts
+- Login to dedicated dashboard
+- View non-adherence alerts for patients
+- Search and filter patient list
+- View individual patient adherence charts
 
 ---
 
