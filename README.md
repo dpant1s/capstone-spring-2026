@@ -59,3 +59,70 @@ This repository is actively used by Team Monarch for project collaboration.
 Team members have been added as contributors.  
 
 Access for course staff (TA and instructor) has been provided / is being maintained.
+
+## UI Design / Wireframes
+UI mockups and screen designs for the Lupus Butterfly app are located in the `/designs` folder.
+These include:
+- Sign Up & Patient Home Screen
+- Patient & Clinician Account Pages
+- Clinician Home Dashboard
+
+
+## How to Run the Backend (MVP)
+
+1. Clone the repository:
+   git clone https://github.com/dpant1s/capstone-spring-2026.git
+
+2. Navigate to the project folder:
+   cd capstone-spring-2026
+
+3. Install dependencies:
+   pip install -r requirements.txt
+
+4. Run the Flask application:
+   python app.py
+
+5. Open in browser:
+   http://127.0.0.1:5000/
+
+Note: This is a basic MVP backend setup. Full mobile integration (Android/iOS) will be implemented in future sprints.
+
+# Patient User Flow
+- Account Creation / Login
+- User opens the app
+- Creates a new account or logs in with existing credentials
+- Device Pairing (Initial Setup)
+- User pairs the Bluetooth-enabled medication bottle cap with the app
+- Home Dashboard
+### A Patient views:
+- Medication status (taken, late, missed)
+- Butterfly Bucks (BB) balance
+- Current game stage
+- Medication Tracking
+- User takes medication
+- Bottle cap sends a Bluetooth signal to the app
+- App logs timestamp and updates adherence status
+- Reward System
+  - App awards Butterfly Bucks based on adherence:
+    - On-time → +2 BB
+    - Late → +1 BB
+    - Missed → 0 BB
+- Game Progression
+- User earns BB and progresses through stages:
+  - Chrysalis → Caterpillar → Butterfly
+- User unlocks customization and features
+- Progress & History
+- User views adherence history
+- User views Butterfly Bank (visual rewards)
+
+# Doctor User Flow
+- Login to Dashboard
+- Provider logs into secure dashboard
+- Patient Monitoring
+- Provider views patient adherence data
+- Reviews trends and medication history
+- Alert System
+  - System flags patients with repeated missed doses
+  - Provider receives non-adherence alerts
+- (Future Feature) Communication
+  - Provider may send messages or guidance to patients
