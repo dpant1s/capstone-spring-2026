@@ -1,32 +1,30 @@
-# 🦋 Lupus Butterfly — Medication Adherence App
-**Team Monarch | Capstone I | Spring 2026**
+# 🦋 The Butterfly Project — Lupus Medication Adherence App
+**Team 5 | Team Monarch | Capstone II | Fall 2026**
 
 ---
 
 ## Project Overview
-Lupus Butterfly is a medication adherence application designed for Lupus patients. The app addresses the challenge of medication non-compliance by combining real-time tracking with a gamified reward system (Butterfly Bucks) to motivate consistent medication intake. Clinicians can monitor patient adherence through a dedicated dashboard with real-time alerts.
+The Butterfly Project (Lupus Butterfly) is a medication adherence application designed for Lupus patients. The app addresses medication non-compliance by combining real-time tracking with a gamified reward system (Butterfly Bucks) to motivate consistent medication intake. Clinicians can monitor patient adherence through a dedicated dashboard with real-time alerts.
 
 ---
 
 ## Project Status
-**MVP Prototype Complete** — Sprints 0–3 finalized. Full mobile development continues in Capstone II.
+**MVP Prototype Complete** (Capstone I) — Full mobile app development, cloud deployment, and authentication in progress for Capstone II.
 
 ---
 
 ## Team Information
-**Team Name:** Team Monarch
+**Team Name:** Team Monarch | **Project Name:** The Butterfly Project | **Team Number:** 5
 
 | Name | Role |
 |------|------|
-| Jinh Nguyen | Team Lead, MVP UI Screenshots, Project Management Review, Mobile HTML Prototype, PowerPoint |
-| Dikshya Pant | Backend Development, Streamlit Web Prototype, MVP Live Demo |
-| Aniya Taylor | UI/UX Design, Wireframes, Plans for Future Sprints 4 & 5 |
-| Remonda Ayad | Reflections & Lessons Learned, Documentation |
-| Movika Tamang | Updated Documents Sprints 0–3 (Requirements, Design Diagrams, ERDs, Testing Template) |
+| Jinh Nguyen | Team Lead, Mobile App Architecture |
+| Dikshya Pant | Backend Development, Cloud Deployment |
+| Aniya Taylor | UI/UX Design, Mobile Screens |
+| Remonda Ayad | Testing & QA Documentation |
+| Movika Tamang | Documentation, Design Diagrams |
 
-**Course Staff:**
-- Instructor: Diana Rabah
-- Teaching Assistant: Sai Sri Harsha Chakravarthula
+See [CONTRIBUTIONS.md](./CONTRIBUTIONS.md) for a full breakdown of individual work.
 
 ---
 
@@ -35,11 +33,40 @@ Lupus Butterfly is a medication adherence application designed for Lupus patient
 | Layer | Technology |
 |-------|-----------|
 | Backend | Python / Flask |
-| Database | SQLite |
+| Database | SQLite (migrating to Supabase for Capstone II) |
 | Web Prototype | Streamlit (UI.py) |
-| Mobile Prototype | HTML / CSS / JavaScript |
+| Mobile App | Android/iOS (in development) |
 | Version Control | GitHub |
 | Project Management | Trello (Kanban) |
+
+---
+
+## Folder Structure
+
+```
+capstone-spring-2026/
+├── README.md
+├── CONTRIBUTIONS.md
+│
+├── Source_Code/
+│   ├── Backend/
+│   │   ├── app.py              # Flask REST API
+│   │   ├── database/           # SQLite schema & models
+│   │   └── services/           # Business logic (adherence, rewards)
+│   │
+│   ├── Frontend/
+│   │   ├── UI.py                # Streamlit web prototype
+│   │   └── mobile/               # HTML/CSS/JS mobile prototype
+│
+├── Testing/
+│   ├── test_cases/
+│   └── test_results/
+│
+└── Documentation/
+    ├── SRS/
+    ├── design_diagrams/
+    └── wireframes/
+```
 
 ---
 
@@ -52,14 +79,16 @@ pip3 install flask streamlit requests
 
 ### Step 1 — Start the Flask backend (Terminal 1)
 ```bash
-git clone https://github.com/dpant1s/capstone-spring-2026.git
-cd capstone-spring-2026
+git clone https://github.com/dikshyapant/capstone-spring-2026.git
+cd capstone-spring-2026/Source_Code/Backend
+pip3 install -r requirements.txt
 python3 app.py
 ```
 Backend runs at: `http://127.0.0.1:5000`
 
 ### Step 2 — Start the Streamlit frontend (Terminal 2)
 ```bash
+cd capstone-spring-2026/Source_Code/Frontend
 streamlit run UI.py
 ```
 Open browser at: `http://localhost:8501`
@@ -73,7 +102,7 @@ Open browser at: `http://localhost:8501`
 
 ---
 
-## Features (MVP)
+## Features (MVP — Capstone I)
 
 ### Patient
 - Sign up & login
@@ -105,17 +134,12 @@ Open browser at: `http://localhost:8501`
 
 ---
 
-## MVP Feature Scope
+## Testing
+Test cases and results are tracked in `/Testing`. Backend endpoints are covered by manual test cases in Capstone I; automated test coverage is planned for Capstone II.
 
-### Included in MVP
-- Flask backend with full medication tracking API
-- SQLite database with user, medication, and log schema
-- Streamlit web prototype with real working backend
-- HTML/CSS mobile prototype (patient app)
-- UI wireframes for all primary screens
-- Full user flow documentation
+---
 
-### Planned for Capstone II
+## Capstone II Roadmap
 - Full Android/iOS mobile app
 - Bluetooth bottle cap hardware integration
 - Live push notifications
@@ -125,7 +149,7 @@ Open browser at: `http://localhost:8501`
 ---
 
 ## UI Design / Wireframes
-UI mockups are located in the `/designs` folder:
+UI mockups are located in `Documentation/wireframes`:
 - Sign Up Screen
 - Patient Home Screen
 - Patient Account Page
