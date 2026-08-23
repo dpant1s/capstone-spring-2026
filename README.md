@@ -10,6 +10,7 @@ The Butterfly Project (Lupus Butterfly) is a medication adherence application de
 
 ## Project Status
 **MVP Prototype Complete** (Capstone I) — Full mobile app development, cloud deployment, and authentication in progress for Capstone II.
+**Note:** The Flask backend and Streamlit prototype in `Source_Code/` represent the Capstone I MVP. Capstone II is pivoting to a native mobile application; this code is kept for reference while new mobile source code is developed.
 
 ---
 
